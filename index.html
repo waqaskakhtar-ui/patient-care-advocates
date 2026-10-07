@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Patient Care Advocates | Tucson In-Home Care & Hospital Advocacy</title>
+  <meta name="description" content="Dedicated to patient dignity, safety, and independence. Founded by Tucson attorney Alice A. Milton and experienced healthcare directors. Serving Tucson with 24/7 care." />
+  
+  <!-- Modern Corporate Fonts: Plus Jakarta Sans & Merriweather -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0C2340',        /* Deep Corporate Tucson Navy */
+              navyLight: '#163B66',   /* Medium Navy */
+              burgundy: '#7B1824',    /* Original Heritage Deep Burgundy */
+              burgundyLight: '#9E2432',
+              gold: '#C59B27',        /* Rotary & Trust Heritage Warm Gold */
+              goldLight: '#F3E5AB',   /* Cream Gold Accent */
+              sand: '#FBF9F5',        /* Warm Desert Sand Background */
+              slate: '#334155',
+              surface: '#FFFFFF',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['"Merriweather"', 'Georgia', 'serif'],
+          },
+          boxShadow: {
+            'card': '0 4px 20px -2px rgba(12, 35, 64, 0.08), 0 2px 6px -1px rgba(12, 35, 64, 0.04)',
+            'card-hover': '0 16px 32px -4px rgba(12, 35, 64, 0.12), 0 6px 12px -2px rgba(12, 35, 64, 0.06)',
+            'elevated': '0 24px 48px -12px rgba(12, 35, 64, 0.18)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F1F5F9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94A3B8;
+    }
+    
+    .gold-gradient-border {
+      border-image: linear-gradient(135deg, #C59B27, #F3E5AB, #C59B27) 1;
+    }
+
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="font-sans bg-brand-sand text-slate-800 antialiased selection:bg-brand-burgundy selection:text-white">
+
+  <!-- ==================== TOP EMERGENCY & DIRECTORY BAR ==================== -->
+  <header class="bg-brand-navy text-slate-200 text-xs border-b border-brand-navyLight/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap justify-between items-center gap-3">
+      
+      <!-- Left: Location & Hours -->
+      <div class="flex items-center space-x-6 flex-wrap gap-y-1">
+        <span class="inline-flex items-center space-x-2 text-slate-300">
+          <i class="fa-solid fa-location-dot text-brand-gold"></i>
+          <span>2223 E. Speedway Blvd, Tucson, AZ 85719</span>
+        </span>
+        <span class="hidden sm:inline-flex items-center space-x-2 text-slate-300">
+          <i class="fa-regular fa-clock text-brand-gold"></i>
+          <span>Office: Mon–Fri 8:00 AM – 5:00 PM</span>
+        </span>
+        <span class="inline-flex items-center space-x-1.5 bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full font-medium">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Staff Available 24/7/365</span>
+        </span>
+      </div>
+
+      <!-- Right: Direct Phone & Quick Help -->
+      <div class="flex items-center space-x-5 ml-auto">
+        <a href="mailto:vperalta@pcatucson.com" class="hidden md:inline-flex items-center space-x-1.5 text-slate-300 hover:text-white transition">
+          <i class="fa-regular fa-envelope text-brand-gold"></i>
+          <span>vperalta@pcatucson.com</span>
+        </a>
+        <a href="tel:5205464141" class="inline-flex items-center space-x-2 font-bold text-white bg-brand-burgundy hover:bg-brand-burgundyLight px-3 py-1 rounded transition shadow-sm">
+          <i class="fa-solid fa-phone-volume text-brand-gold text-xs"></i>
+          <span>(520) 546-4141</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CORPORATE HEADER / NAV ==================== -->
+  <nav class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 transition-all duration-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        
+        <!-- Brand Logo -->
+        <a href="index.html" class="flex items-center space-x-3.5 group py-2">
+          <!-- Corporate Logo Crest with Cross & Heart -->
+          <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-brand-navy to-brand-burgundy flex items-center justify-center text-white shadow-md group-hover:scale-[1.02] transition">
+            <div class="relative">
+              <i class="fa-solid fa-shield-halved text-2xl text-brand-gold"></i>
+              <i class="fa-solid fa-heart-pulse absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white"></i>
+            </div>
+          </div>
+          <div>
+            <div class="font-extrabold tracking-tight text-brand-navy text-xl sm:text-2xl leading-none flex items-center gap-1.5">
+              <span>Patient Care Advocates</span>
+            </div>
+            <div class="text-[11px] font-semibold uppercase tracking-wider text-brand-burgundy mt-1">
+              Tucson Home Care &bull; Medicare &bull; Hospital Advocacy
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden lg:flex items-center space-x-1 xl:space-x-2">
+          <a href="index.html" class="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-brand-burgundy hover:bg-slate-100/60 rounded-md transition">Home</a>
+          
+          <!-- Services Dropdown Trigger -->
+          <div class="relative group">
+            <button class="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-brand-burgundy hover:bg-slate-100/60 rounded-md transition inline-flex items-center gap-1">
+              <span>Services</span>
+              <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180 text-slate-400"></i>
+            </button>
+            <!-- Dropdown Menu -->
+            <div class="absolute top-full left-0 w-80 bg-white rounded-xl shadow-xl border border-slate-100 py-2 hidden group-hover:block transition-all transform origin-top duration-150">
+              <a href="medicare.html" class="flex items-start gap-3 px-4 py-3 hover:bg-slate-50 transition">
+                <div class="w-9 h-9 rounded-lg bg-blue-50 text-brand-navy flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-user-doctor text-sm"></i>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900 text-sm">Medicare Home Health</div>
+                  <div class="text-xs text-slate-500">Skilled nursing, therapy & specialized recovery at home.</div>
+                </div>
+              </a>
+              <a href="caregivers.html" class="flex items-start gap-3 px-4 py-3 hover:bg-slate-50 transition">
+                <div class="w-9 h-9 rounded-lg bg-red-50 text-brand-burgundy flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-hand-holding-heart text-sm"></i>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900 text-sm">Caregiver Services</div>
+                  <div class="text-xs text-slate-500">Dedicated personal care, companionship & 24/7 support.</div>
+                </div>
+              </a>
+              <a href="hospital.html" class="flex items-start gap-3 px-4 py-3 hover:bg-slate-50 transition">
+                <div class="w-9 h-9 rounded-lg bg-amber-50 text-amber-700 flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-hospital-user text-sm"></i>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900 text-sm">Hospital Advocacy</div>
+                  <div class="text-xs text-slate-500">Bedside protection, error prevention & discharge oversight.</div>
+                </div>
+              </a>
+              <a href="vets.html" class="flex items-start gap-3 px-4 py-3 hover:bg-slate-50 transition">
+                <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                  <i class="fa-solid fa-medal text-sm"></i>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900 text-sm">Veterans Care</div>
+                  <div class="text-xs text-slate-500">Honoring our service members with VA-approved care.</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Active Page: About Us -->
+          <a href="about.html" class="px-3 py-2 text-sm font-bold text-brand-burgundy bg-brand-burgundy/10 rounded-md transition">About Us</a>
+          <a href="testimonial.html" class="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-brand-burgundy hover:bg-slate-100/60 rounded-md transition">Testimonials</a>
+          <a href="links.html" class="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-brand-burgundy hover:bg-slate-100/60 rounded-md transition">Helpful Articles</a>
+          <a href="employment.html" class="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-brand-burgundy hover:bg-slate-100/60 rounded-md transition">Careers</a>
+        </div>
+
+        <!-- Desktop Action Buttons -->
+        <div class="hidden lg:flex items-center space-x-3">
+          <button onclick="openAssessmentModal()" class="inline-flex items-center justify-center px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-brand-navy hover:text-brand-burgundy bg-slate-100 hover:bg-slate-200/80 rounded-lg transition">
+            <i class="fa-regular fa-calendar-check mr-2"></i> Free Assessment
+          </button>
+          <a href="tel:5205464141" class="inline-flex items-center justify-center px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-brand-navy hover:bg-brand-navyLight rounded-lg shadow-sm transition">
+            <i class="fa-solid fa-phone-flip mr-2 text-brand-gold"></i> Speak with a Nurse
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex lg:hidden items-center space-x-2">
+          <a href="tel:5205464141" class="p-2 text-brand-burgundy bg-red-50 rounded-lg text-sm font-bold" aria-label="Call Patient Care Advocates">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <button id="mobileMenuBtn" class="p-2 text-slate-700 hover:text-brand-navy hover:bg-slate-100 rounded-lg focus:outline-none" aria-label="Toggle Navigation Menu">
+            <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-lg">
+      <div class="flex flex-col space-y-1">
+        <a href="index.html" class="px-3 py-2 rounded-md font-semibold text-slate-800 hover:bg-slate-100">Home</a>
+        <div class="py-1">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-400 px-3 py-1">Services</div>
+          <div class="grid grid-cols-1 gap-1 pl-2">
+            <a href="medicare.html" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-slate-50">
+              <i class="fa-solid fa-user-doctor text-blue-600 text-xs w-4"></i> Medicare Home Health
+            </a>
+            <a href="caregivers.html" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-slate-50">
+              <i class="fa-solid fa-hand-holding-heart text-red-600 text-xs w-4"></i> Caregiver Services
+            </a>
+            <a href="hospital.html" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-slate-50">
+              <i class="fa-solid fa-hospital-user text-amber-600 text-xs w-4"></i> Hospital Advocacy
+            </a>
+            <a href="vets.html" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-slate-50">
+              <i class="fa-solid fa-medal text-emerald-600 text-xs w-4"></i> Veterans Program
+            </a>
+          </div>
+        </div>
+        <a href="about.html" class="px-3 py-2 rounded-md font-bold text-brand-burgundy bg-brand-burgundy/10">About Us</a>
+        <a href="testimonial.html" class="px-3 py-2 rounded-md font-semibold text-slate-800 hover:bg-slate-100">Testimonials</a>
+        <a href="links.html" class="px-3 py-2 rounded-md font-semibold text-slate-800 hover:bg-slate-100">Helpful Articles & Links</a>
+        <a href="employment.html" class="px-3 py-2 rounded-md font-semibold text-slate-800 hover:bg-slate-100">Apply With Us</a>
+      </div>
+      <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+        <button onclick="openAssessmentModal()" class="w-full py-3 bg-brand-sand text-brand-navy font-bold text-center rounded-lg border border-slate-200">
+          Request Free Consultation
+        </button>
+        <a href="tel:5205464141" class="w-full py-3 bg-brand-burgundy text-white font-bold text-center rounded-lg flex items-center justify-center gap-2">
+          <i class="fa-solid fa-phone"></i> Call 24/7: (520) 546-4141
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION: CORPORATE & COMPASSIONATE ==================== -->
+  <section class="relative bg-gradient-to-b from-brand-navy via-brand-navy to-[#0F2D52] text-white pt-16 pb-24 overflow-hidden">
+    <!-- Subtle Background Geometric Accents -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none">
+      <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-brand-gold blur-3xl"></div>
+      <div class="absolute bottom-0 left-10 w-96 h-96 rounded-full bg-brand-burgundy blur-3xl"></div>
+      <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="corporate-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#corporate-grid)" />
+      </svg>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Breadcrumb -->
+      <nav class="flex items-center space-x-2 text-xs font-semibold uppercase tracking-wider text-slate-300 mb-6" aria-label="Breadcrumb">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <span class="text-brand-gold">&bull;</span>
+        <span class="text-brand-goldLight">About Patient Care Advocates</span>
+      </nav>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: Mission Narrative -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center space-x-2 bg-brand-burgundy/80 text-white border border-brand-burgundyLight/50 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
+            <i class="fa-solid fa-award text-brand-gold"></i>
+            <span>Three Decades of Patient Advocacy in Tucson</span>
+          </div>
+
+          <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-tight text-white tracking-tight">
+            Protecting Patient Dignity, Ensuring Quality of Life.
+          </h1>
+
+          <p class="text-lg text-slate-200 leading-relaxed font-light">
+            Founded by Tucson attorney <span class="font-semibold text-brand-goldLight">Alice A. Milton, Esq.</span> alongside seasoned healthcare directors, Patient Care Advocates was established on a single uncompromising premise: <em class="font-serif italic text-white">every individual deserves fierce advocacy, clinical excellence, and dignified independence.</em>
+          </p>
+
+          <!-- Core Value Badges -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
+            <div class="bg-white/10 backdrop-blur-sm border border-white/10 p-3.5 rounded-xl">
+              <div class="text-2xl font-black text-brand-gold">30+</div>
+              <div class="text-xs text-slate-300 font-medium mt-0.5">Years Serving Tucson & Pima County</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm border border-white/10 p-3.5 rounded-xl">
+              <div class="text-2xl font-black text-brand-gold">24 / 7</div>
+              <div class="text-xs text-slate-300 font-medium mt-0.5">Trained Clinical Staff On-Call Always</div>
+            </div>
+            <div class="col-span-2 sm:col-span-1 bg-white/10 backdrop-blur-sm border border-white/10 p-3.5 rounded-xl">
+              <div class="text-2xl font-black text-brand-gold">100%</div>
+              <div class="text-xs text-slate-300 font-medium mt-0.5">Licensed, Bonded & Clinically Supervised</div>
+            </div>
+          </div>
+
+          <!-- Action CTAs -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#leadership" class="px-6 py-3.5 bg-brand-burgundy hover:bg-brand-burgundyLight text-white font-bold rounded-xl transition shadow-lg inline-flex items-center gap-2 text-sm">
+              <span>Meet Our Leadership</span>
+              <i class="fa-solid fa-arrow-down text-xs"></i>
+            </a>
+            <a href="#video-feature" class="px-6 py-3.5 bg-white/15 hover:bg-white/25 text-white font-semibold rounded-xl border border-white/20 transition backdrop-blur-sm inline-flex items-center gap-2 text-sm">
+              <i class="fa-solid fa-circle-play text-brand-gold"></i>
+              <span>Watch KGUN 9 Feature</span>
+            </a>
+            <a href="tel:5205464141" class="text-slate-300 hover:text-white font-semibold text-sm inline-flex items-center gap-1.5 ml-2">
+              <i class="fa-solid fa-phone text-brand-gold"></i> (520) 546-4141
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Heartwarming Original Imagery Card -->
+        <div class="lg:col-span-5">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Decorative Behind Glow -->
+            <div class="absolute -inset-1.5 bg-gradient-to-r from-brand-gold/40 to-brand-burgundy/40 rounded-3xl blur-lg opacity-70"></div>
+
+            <div class="relative bg-white text-slate-800 rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
+              
+              <!-- Featured Original Photo: Yosie (caregiver), Mom's Dog, Mom -->
+              <div class="relative bg-slate-100 overflow-hidden">
+                <img 
+                  src="images/patientandDog.png" 
+                  onerror="this.onerror=null; this.src='https://pcatucson.com/imagesgen/patientandDog.png';"
+                  alt="Patient Care Advocates Caregiver Yosie with Mom and her dog in Tucson home" 
+                  class="w-full h-80 object-cover object-center transform hover:scale-105 transition duration-500"
+                />
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 text-white">
+                  <div class="flex items-center space-x-2">
+                    <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                    <span class="text-xs uppercase tracking-widest font-bold text-emerald-300">True Companionship</span>
+                  </div>
+                  <p class="text-sm font-medium italic mt-1 text-slate-100">
+                    "Yosie (caregiver), Mom's Dog, and Mom — The human heart behind PCA."
+                  </p>
+                </div>
+              </div>
+
+              <!-- Content Inside Card -->
+              <div class="p-6 bg-white space-y-4">
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h3 class="font-serif font-bold text-slate-900 text-lg">Compassion You Can Feel</h3>
+                    <p class="text-xs text-slate-500">Tucson, Arizona Private & Medicare Home Care</p>
+                  </div>
+                  <span class="px-2.5 py-1 bg-amber-50 text-amber-800 border border-amber-200 rounded-full text-xs font-bold">
+                    <i class="fa-solid fa-house-chimney-medical text-amber-600 mr-1"></i> In-Home & Hospital
+                  </span>
+                </div>
+
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  "Help... It's something that we all need. Sometimes it's a lot, sometimes it's a little. What matters is that the help you receive keeps you thriving where you belong: at home."
+                </p>
+
+                <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                  <span class="flex items-center gap-1.5 font-medium text-slate-700">
+                    <i class="fa-solid fa-circle-check text-emerald-600"></i> Individualized Care Plan
+                  </span>
+                  <a href="caregivers.html" class="text-brand-burgundy font-bold hover:underline inline-flex items-center gap-1">
+                    Explore Services &rarr;
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== MISSION, VISION & THE ROTARY 4-WAY TEST ==================== -->
+  <section class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold tracking-widest uppercase text-brand-burgundy bg-brand-burgundy/10 px-3 py-1 rounded-full">
+          Our Guiding Philosophy
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl text-brand-navy font-normal mt-3">
+          Integrity in Healthcare, Compassion in Every Action
+        </h2>
+        <p class="text-slate-600 text-base mt-3">
+          Our organization was built on enduring ethical principles, championing human dignity at every stage of vulnerability.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Mission Card -->
+        <div class="bg-brand-sand rounded-2xl p-8 border border-slate-200/80 shadow-card hover:shadow-card-hover transition duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-xl bg-brand-navy text-white flex items-center justify-center text-2xl mb-6 shadow-md">
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-brand-navy">Core Purpose</span>
+            <h3 class="font-serif text-2xl text-slate-900 font-bold mt-1 mb-4">Our Mission</h3>
+            <blockquote class="text-slate-700 leading-relaxed text-sm italic font-serif border-l-4 border-brand-navy pl-4 py-1">
+              "To care for all of our clients in a manner that promotes and enhances their independence, quality of life, dignity and individuality. When we successfully accomplish our mission, we promote the dignity of all people."
+            </blockquote>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200/60 text-xs text-slate-500 font-semibold flex items-center gap-2">
+            <i class="fa-solid fa-check text-brand-navy"></i> Enhancing Patient Independence
+          </div>
+        </div>
+
+        <!-- Vision Card -->
+        <div class="bg-brand-sand rounded-2xl p-8 border border-slate-200/80 shadow-card hover:shadow-card-hover transition duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-xl bg-brand-burgundy text-white flex items-center justify-center text-2xl mb-6 shadow-md">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-brand-burgundy">Uncompromising Commitment</span>
+            <h3 class="font-serif text-2xl text-slate-900 font-bold mt-1 mb-4">Our Vision</h3>
+            <blockquote class="text-slate-700 leading-relaxed text-sm italic font-serif border-l-4 border-brand-burgundy pl-4 py-1">
+              "Having the courage and integrity to always do only that which is right, both at work and in our personal lives."
+            </blockquote>
+            <p class="text-xs text-slate-600 mt-4 leading-normal">
+              In an industry that often reduces patients to statistics, our clinicians and caregivers stand as personal protectors who fight for what is best for the individual.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-slate-200/60 text-xs text-slate-500 font-semibold flex items-center gap-2">
+            <i class="fa-solid fa-check text-brand-burgundy"></i> Courage & Moral Integrity
+          </div>
+        </div>
+
+        <!-- The Rotary Club Four-Way Test Card -->
+        <div class="bg-gradient-to-br from-brand-navy to-[#113156] text-white rounded-2xl p-8 shadow-card hover:shadow-card-hover transition duration-300 flex flex-col justify-between relative overflow-hidden">
+          <!-- Background Rotary emblem watermark -->
+          <div class="absolute -right-10 -bottom-10 opacity-10 pointer-events-none">
+            <i class="fa-solid fa-gear text-9xl"></i>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <div class="w-14 h-14 rounded-xl bg-brand-gold text-brand-navy flex items-center justify-center text-2xl shadow-md font-black">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+              <img 
+                src="images/rotary.png" 
+                onerror="this.onerror=null; this.src='https://pcatucson.com/imagesgen/rotary.png';"
+                alt="Rotary Club Member" 
+                class="h-10 w-auto object-contain filter brightness-110"
+              />
+            </div>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-brand-gold">Ethical Standards</span>
+            <h3 class="font-serif text-2xl text-white font-bold mt-1 mb-2">The Four-Way Test</h3>
+            <p class="text-xs text-slate-300 mb-4">
+              Of the things we think, say, or do — held by our leadership and entire medical staff:
+            </p>
+
+            <ul class="space-y-2.5 text-xs">
+              <li class="flex items-start gap-2.5 bg-white/10 p-2 rounded-lg">
+                <span class="font-extrabold text-brand-gold uppercase text-[10px] tracking-wider w-14 shrink-0">First:</span>
+                <span class="text-slate-100 font-medium">Is it the <strong class="text-white">TRUTH</strong>?</span>
+              </li>
+              <li class="flex items-start gap-2.5 bg-white/10 p-2 rounded-lg">
+                <span class="font-extrabold text-brand-gold uppercase text-[10px] tracking-wider w-14 shrink-0">Second:</span>
+                <span class="text-slate-100 font-medium">Is it <strong class="text-white">FAIR</strong> to all concerned?</span>
+              </li>
+              <li class="flex items-start gap-2.5 bg-white/10 p-2 rounded-lg">
+                <span class="font-extrabold text-brand-gold uppercase text-[10px] tracking-wider w-14 shrink-0">Third:</span>
+                <span class="text-slate-100 font-medium">Will it build <strong class="text-white">GOODWILL</strong> and better friendships?</span>
+              </li>
+              <li class="flex items-start gap-2.5 bg-white/10 p-2 rounded-lg">
+                <span class="font-extrabold text-brand-gold uppercase text-[10px] tracking-wider w-14 shrink-0">Fourth:</span>
+                <span class="text-slate-100 font-medium">Will it be <strong class="text-white">BENEFICIAL</strong> to all concerned?</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-5 mt-5 border-t border-white/15 text-[11px] text-slate-300 font-medium flex items-center justify-between">
+            <span>Rotary Club of Tucson Affiliated</span>
+            <span class="text-brand-gold"><i class="fa-solid fa-star"></i> Proven Trust</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== EXECUTIVE OWNERSHIP & LEADERSHIP ==================== -->
+  <section id="leadership" class="py-24 bg-brand-sand">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <span class="text-xs font-extrabold tracking-widest uppercase text-brand-burgundy bg-brand-burgundy/10 px-3.5 py-1.5 rounded-full">
+          Executive Leadership
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl text-brand-navy font-bold mt-4">
+          Decades of Legal Acumen & Clinical Mastery
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Our founders and directors combine over 95 cumulative years of legal advocacy, home health administration, and clinical nursing direction.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Leader 1: Alice A. Milton, Esq. -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition duration-300 border border-slate-200/80 flex flex-col">
+          <div class="bg-gradient-to-br from-brand-navy to-[#184577] p-6 text-white text-center relative">
+            <!-- Icon Avatar / Crest -->
+            <div class="w-24 h-24 mx-auto rounded-full bg-white/15 border-2 border-brand-gold p-1 flex items-center justify-center shadow-inner mb-3">
+              <div class="w-full h-full rounded-full bg-brand-navy flex items-center justify-center text-brand-gold text-3xl">
+                <i class="fa-solid fa-scale-unbalanced"></i>
+              </div>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white tracking-wide">Alice A. Milton, Esq.</h3>
+            <p class="text-brand-gold text-xs font-semibold uppercase tracking-wider mt-1">Founder &bull; Ownership & Legal Advocacy</p>
+            <span class="inline-block mt-2 bg-white/10 text-slate-200 text-[11px] px-3 py-0.5 rounded-full border border-white/20">
+              30+ Years Tucson Attorney
+            </span>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-3 text-sm text-slate-700 leading-relaxed">
+              <p>
+                Alice has been a practicing Tucson attorney for over 30 years. Throughout her legal career, Alice observed firsthand the profound pitfalls of the healthcare system and the emotional and legal toll it takes on seniors and families trying to navigate it alone.
+              </p>
+              <p>
+                She is fiercely sensitive and dedicated to the quality of care, patient rights, and personal dignity under all circumstances. Alice Milton is also an active, proud member of the Rotary Club, anchoring the company's bedrock values in ethical service.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span class="font-semibold text-brand-navy"><i class="fa-solid fa-gavel text-brand-gold mr-1.5"></i> Patient Rights & Law</span>
+              <span class="text-slate-400">Rotary Member</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Leader 2: Olivia Cortinas-Romero -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition duration-300 border border-slate-200/80 flex flex-col">
+          <div class="bg-gradient-to-br from-brand-burgundy to-[#5A0F17] p-6 text-white text-center relative">
+            <!-- Icon Avatar / Crest -->
+            <div class="w-24 h-24 mx-auto rounded-full bg-white/15 border-2 border-brand-goldLight p-1 flex items-center justify-center shadow-inner mb-3">
+              <div class="w-full h-full rounded-full bg-brand-burgundy flex items-center justify-center text-brand-goldLight text-3xl">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white tracking-wide">Olivia Cortinas-Romero</h3>
+            <p class="text-brand-goldLight text-xs font-semibold uppercase tracking-wider mt-1">Executive Director, Administrator</p>
+            <span class="inline-block mt-2 bg-white/10 text-slate-200 text-[11px] px-3 py-0.5 rounded-full border border-white/20">
+              30 Years Home Health Experience
+            </span>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-3 text-sm text-slate-700 leading-relaxed">
+              <p>
+                Olivia brings 30 years of hands-on experience in home health administration. She deeply understands the real-world daily needs, anxieties, and wishes of both clients and their families.
+              </p>
+              <p>
+                She knows that by meticulously hiring, thoroughly vetting, training, and managing only the highest calibre clinicians and caregivers, she directly enhances quality of life. She believes unequivocally that every single client deserves to be treated with compassion, dignity, and as an individual.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span class="font-semibold text-brand-burgundy"><i class="fa-solid fa-users-gear text-brand-burgundy mr-1.5"></i> Operations & Staffing</span>
+              <span class="text-slate-400">Patient-First Care</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Leader 3: Wendy Owen, RN -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition duration-300 border border-slate-200/80 flex flex-col">
+          <div class="bg-gradient-to-br from-[#0F4C5C] to-brand-navy p-6 text-white text-center relative">
+            <!-- Icon Avatar / Crest -->
+            <div class="w-24 h-24 mx-auto rounded-full bg-white/15 border-2 border-emerald-300 p-1 flex items-center justify-center shadow-inner mb-3">
+              <div class="w-full h-full rounded-full bg-[#0F4C5C] flex items-center justify-center text-emerald-200 text-3xl">
+                <i class="fa-solid fa-user-nurse"></i>
+              </div>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white tracking-wide">Wendy Owen, RN</h3>
+            <p class="text-emerald-200 text-xs font-semibold uppercase tracking-wider mt-1">Director of Nursing</p>
+            <span class="inline-block mt-2 bg-white/10 text-slate-200 text-[11px] px-3 py-0.5 rounded-full border border-white/20">
+              35 Years Healthcare Practice
+            </span>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-3 text-sm text-slate-700 leading-relaxed">
+              <p>
+                Wendy has been in the healthcare and nursing field for 35 years. In addition to delivering skilled nursing services, she directly oversees, directs, and educates all of our clinicians and caregivers to guarantee rigorous quality care.
+              </p>
+              <p>
+                Her diverse background encompasses acute care, rehabilitation, and long-term home health services. Wendy is passionate about patient and family education, empowering individuals with the medical understanding they need to make confident choices.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span class="font-semibold text-[#0F4C5C]"><i class="fa-solid fa-notes-medical text-emerald-600 mr-1.5"></i> Clinical Direction</span>
+              <span class="text-slate-400">Patient Education</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trust Assurance Box -->
+      <div class="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center text-2xl shrink-0">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div>
+            <h4 class="font-serif font-bold text-slate-900 text-lg">Have a specific medical or legal care question?</h4>
+            <p class="text-slate-600 text-xs sm:text-sm">Speak directly with our administrative and nursing team in Tucson.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <a href="tel:5205464141" class="px-5 py-2.5 bg-brand-navy hover:bg-brand-navyLight text-white text-xs font-bold uppercase tracking-wider rounded-lg transition inline-flex items-center gap-2">
+            <i class="fa-solid fa-phone"></i> (520) 546-4141
+          </a>
+          <button onclick="openAssessmentModal()" class="px-5 py-2.5 bg-brand-sand hover:bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider rounded-lg border border-slate-300 transition">
+            Book Meeting
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== MEDIA FEATURE: KGUN 9 TELEVISION REPORT ==================== -->
+  <section id="video-feature" class="py-20 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Video Player Frame -->
+        <div class="lg:col-span-7">
+          <div class="bg-brand-navy rounded-2xl p-2 sm:p-4 shadow-elevated border border-slate-200">
+            <div class="relative w-full rounded-xl overflow-hidden bg-black aspect-video shadow-inner">
+              <!-- Live Scripps Media Iframe Embed from Original Site -->
+              <iframe 
+                class="w-full h-full"
+                src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.kgun9.com&title=How%20Do%20You%20Know%20If%20Your%20Elderly%20Loved%20One%20Is%20Really%20Being%20Taken%20Care%20Of%3F&m3u8=https://content.uplynk.com/e99f7f020dbf415c85717e7719ea6c15.m3u8&purl=/the-morning-blend/how-do-you-know-if-your-elderly-loved-one-is-really-being-taken-care-of&story=0&ex=1&s=kgun"
+                title="KGUN 9 The Morning Blend Feature: How Do You Know If Your Elderly Loved One Is Really Being Taken Care Of?"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <!-- Video Metadata Bar -->
+            <div class="mt-3 px-2 flex items-center justify-between text-xs text-slate-300">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-tv text-brand-gold"></i>
+                <span class="font-bold text-white">KGUN 9 Tucson &bull; The Morning Blend</span>
+              </span>
+              <span class="text-slate-400">Featured Special Report</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Narrative & Context -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-burgundy bg-brand-burgundy/10 px-3 py-1 rounded-full">
+            <i class="fa-solid fa-bullhorn"></i> Television Special Feature
+          </div>
+
+          <h2 class="font-serif text-3xl text-brand-navy font-bold leading-tight">
+            "How Do You Know If Your Elderly Loved One Is Really Being Taken Care Of?"
+          </h2>
+
+          <p class="text-slate-600 text-sm leading-relaxed">
+            In this in-depth segment broadcast on <strong class="text-slate-800">KGUN 9 Tucson's Morning Blend</strong>, Patient Care Advocates addresses the urgent dilemmas family members face when parents or relatives require ongoing support.
+          </p>
+
+          <div class="space-y-3">
+            <div class="flex items-start gap-3 bg-brand-sand p-3.5 rounded-xl border border-slate-200">
+              <i class="fa-solid fa-clipboard-check text-brand-burgundy text-lg mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-xs text-slate-900 uppercase tracking-wide">Signs of Care Deficits</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Identifying unnoticed weight loss, medication mistakes, hygiene decline, and hospital re-admissions before crises erupt.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 bg-brand-sand p-3.5 rounded-xl border border-slate-200">
+              <i class="fa-solid fa-user-shield text-brand-navy text-lg mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-xs text-slate-900 uppercase tracking-wide">The Power of Independent Advocacy</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Why having an advocate who answers solely to the patient and family transforms care quality across Tucson facilities.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="testimonial.html" class="inline-flex items-center gap-2 text-brand-burgundy font-bold text-sm hover:underline">
+              <span>Read Letters From Tucson Families</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== THE HARD FACTS: WHY HOSPITAL ADVOCACY MATTERS ==================== -->
+  <section class="py-20 bg-brand-sand">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-br from-brand-navy via-brand-navy to-[#18395F] text-white rounded-3xl p-8 sm:p-12 shadow-card border border-brand-navyLight overflow-hidden relative">
+        <!-- Background accent watermark -->
+        <div class="absolute right-0 bottom-0 opacity-5 pointer-events-none">
+          <i class="fa-solid fa-hospital text-[280px]"></i>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+          
+          <div class="lg:col-span-7 space-y-6">
+            <span class="text-xs font-bold uppercase tracking-widest text-brand-gold bg-white/10 px-3 py-1 rounded-full border border-white/15">
+              Critical Patient Safety Information
+            </span>
+
+            <h2 class="font-serif text-3xl sm:text-4xl font-normal leading-tight">
+              Hospital Stays Can Be Hazardous Without an Advocate at Your Bedside.
+            </h2>
+
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+              Problems in today’s modern hospitals have been thoroughly documented in national investigations. The alarming reality is that countless patients entering hospitals suffer avoidable setbacks or find themselves alone, overwhelmed, and unable to ask the right medical questions.
+            </p>
+
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/15">
+              <div class="text-brand-gold text-lg mb-2">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <blockquote class="italic text-sm text-slate-100 font-serif leading-relaxed">
+                "…for every 100 patients admitted to hospitals, there are 40 to 50 incidents in which patients are harmed… ranging from bruises and bed sores to much more life-threatening situations."
+              </blockquote>
+              <div class="mt-2 text-xs font-bold text-brand-gold uppercase tracking-wider text-right">
+                — CBS News Special Report
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 bg-white text-slate-900 rounded-2xl p-6 sm:p-8 shadow-2xl">
+            <h3 class="font-serif text-xl font-bold text-brand-navy mb-4 flex items-center gap-2">
+              <i class="fa-solid fa-triangle-exclamation text-amber-500"></i>
+              The Hard Facts in Healthcare
+            </h3>
+            
+            <ul class="space-y-3.5 text-xs text-slate-700">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-xmark text-red-500 text-sm mt-0.5 shrink-0"></i>
+                <span><strong>Hospital-acquired infections:</strong> The risk of serious antibiotic-resistant infection during admission continues to climb.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-xmark text-red-500 text-sm mt-0.5 shrink-0"></i>
+                <span><strong>Forced immobility:</strong> Days in hospital beds cause muscle atrophy that may prevent seniors from ever returning home independently.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-xmark text-red-500 text-sm mt-0.5 shrink-0"></i>
+                <span><strong>Physician communication lag:</strong> It can take days before relatives receive an honest, plain-English assessment from attending physicians.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-xmark text-red-500 text-sm mt-0.5 shrink-0"></i>
+                <span><strong>Medication errors at discharge:</strong> Mismatched prescriptions between hospital and home are a leading cause of readmission.</span>
+              </li>
+            </ul>
+
+            <div class="mt-6 pt-5 border-t border-slate-100">
+              <a href="hospital.html" class="w-full py-3 bg-brand-burgundy hover:bg-brand-burgundyLight text-white font-bold text-xs uppercase tracking-wider rounded-xl transition text-center flex items-center justify-center gap-2 shadow-sm">
+                <span>Learn How Hospital Advocacy Protects You</span>
+                <i class="fa-solid fa-arrow-right text-xs"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== REAL LETTERS TO PATIENT CARE ADVOCATES ==================== -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+        <div>
+          <span class="text-xs font-extrabold tracking-widest uppercase text-brand-burgundy bg-brand-burgundy/10 px-3.5 py-1.5 rounded-full">
+            Real Tucson Client Stories
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl text-brand-navy font-bold mt-4">
+            Letters to Patient Care Advocates
+          </h2>
+          <p class="text-slate-600 mt-2 text-sm sm:text-base max-w-2xl">
+            Read unedited feedback from Tucson adult children, spouses, physicians, and medical social workers who entrusted their families to us.
+          </p>
+        </div>
+        <div class="mt-6 md:mt-0">
+          <a href="testimonial.html" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-navy hover:text-brand-burgundy bg-slate-100 hover:bg-slate-200 px-4 py-2.5 rounded-lg transition">
+            View All Testimonials &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Letter 1 -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "Words cannot express the feelings we have for you all. From the first phone call made, speaking with you, we knew we were in good hands. And then our meeting with your nurse and on to each and every caregiver assigned to mom’s case. It takes a special gift to do what you all do, and you have that gift."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">Family of Patient</span>
+            <span class="text-slate-500">Tucson, AZ</span>
+          </div>
+        </div>
+
+        <!-- Letter 2 -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "I can’t begin to express my gratitude. The rehabilitation facility was performing no services whatsoever until your team stepped in. When I came to your office I was worn out and frustrated. Your team came to my rescue with assistance far greater than expected. I would highly recommend your services to anyone."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">Mr. P. Bishop</span>
+            <span class="text-slate-500">Rehab Advocacy</span>
+          </div>
+        </div>
+
+        <!-- Letter 3: Professional Referral -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "You immediately established rapport with our patient and set her distraught family at ease. The professionalism and reassurance was exactly what they needed. Thank you again for your prompt and compassionate response. It is a pleasure to collaborate with you and your staff."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">L. Daniels, M.S.W.</span>
+            <span class="text-slate-500">Medical Social Worker</span>
+          </div>
+        </div>
+
+        <!-- Letter 4 -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "I wanted to let you and your staff know how much their care of mother meant to us in a difficult time. Your compassion and flexibility were greatly appreciated and helped ease our minds the past few months. Please feel free to use us as references."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">Darrel H.</span>
+            <span class="text-slate-500">In-Home Care</span>
+          </div>
+        </div>
+
+        <!-- Letter 5 -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "The fact was that the Patient Care Advocates nurse was there when I arrived at the hospital. She was able to explain to me everything that was going on. I would have felt very alone without her presence."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">Mrs. H. Ward</span>
+            <span class="text-slate-500">Hospital Emergency</span>
+          </div>
+        </div>
+
+        <!-- Letter 6 -->
+        <div class="bg-brand-sand rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex text-amber-400 text-xs">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="font-serif text-sm text-slate-800 italic leading-relaxed">
+              "Thank you all for making mom’s passing very peaceful and giving us the strength to carry on in her final days. YOU’RE THE BEST!"
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs">
+            <span class="font-bold text-brand-navy">Vicki, Melinda, & Linda</span>
+            <span class="text-slate-500">Palliative Comfort Care</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CARE ASSESSMENT & CONTACT FORM ==================== -->
+  <section class="py-20 bg-brand-sand border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left: Office & Contact Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-xs font-extrabold tracking-widest uppercase text-brand-burgundy bg-brand-burgundy/10 px-3 py-1 rounded-full">
+            Connect With Our Team
+          </span>
+          <h2 class="font-serif text-3xl font-bold text-brand-navy">
+            We Are Ready to Help Your Family Today.
+          </h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Whether you need urgent bedside hospital advocacy, Medicare home nursing, or qualified personal caregivers, our coordinators are here 24 hours a day, 7 days a week.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-brand-navy text-white flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div>
+                <div class="font-bold text-slate-900 text-sm">Tucson Headquarters</div>
+                <div class="text-xs text-slate-600 mt-0.5">2223 East Speedway Boulevard, Tucson, AZ 85719</div>
+                <div class="text-[11px] text-slate-400 mt-1">Conveniently accessible near the University of Arizona medical corridor</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-brand-burgundy text-white flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div>
+                <div class="font-bold text-slate-900 text-sm">24/7 Phone Support</div>
+                <div class="text-sm font-bold text-brand-burgundy mt-0.5">
+                  <a href="tel:5205464141" class="hover:underline">(520) 546-4141</a>
+                </div>
+                <div class="text-[11px] text-slate-500 mt-1">Office Hours: Mon - Fri 8:00 AM – 5:00 PM &bull; Dispatch 24/7</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-brand-gold text-brand-navy flex items-center justify-center shrink-0">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div>
+                <div class="font-bold text-slate-900 text-sm">Direct Email</div>
+                <div class="text-xs text-slate-700 mt-0.5">
+                  <a href="mailto:vperalta@pcatucson.com" class="text-brand-navy font-semibold hover:underline">vperalta@pcatucson.com</a>
+                </div>
+                <div class="text-[11px] text-slate-500 mt-1">Confidential patient intake and medical records</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Inquiry Intake Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-2xl p-8 sm:p-10 shadow-card border border-slate-200">
+            <h3 class="font-serif text-2xl font-bold text-brand-navy mb-2">Request an In-Home or Hospital Care Assessment</h3>
+            <p class="text-xs text-slate-500 mb-6">Complete this confidential form. A senior case manager will reach out promptly.</p>
+
+            <form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Your Full Name *</label>
+                  <input type="text" required placeholder="Jane Doe" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-navy focus:border-transparent" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Phone Number *</label>
+                  <input type="tel" required placeholder="(520) 000-0000" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-navy focus:border-transparent" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Email Address</label>
+                  <input type="email" placeholder="jane@example.com" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-navy focus:border-transparent" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Primary Service Needed</label>
+                  <select class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-navy focus:border-transparent">
+                    <option value="caregiver">In-Home Caregiver (Companionship/ADLs)</option>
+                    <option value="hospital">Hospital Bedside Advocacy & Protection</option>
+                    <option value="medicare">Medicare Home Health & Nursing</option>
+                    <option value="veterans">Veterans Home Care Benefits</option>
+                    <option value="general">General Inquiry / Legal Question</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Tell us about your or your loved one's situation</label>
+                <textarea rows="4" placeholder="Current condition, hospital location, or specific care assistance required..." class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-navy focus:border-transparent"></textarea>
+              </div>
+
+              <div class="flex items-center space-x-2 text-xs text-slate-500">
+                <i class="fa-solid fa-lock text-emerald-600"></i>
+                <span>Your medical information is strictly protected and confidential.</span>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 bg-brand-burgundy hover:bg-brand-burgundyLight text-white font-bold text-xs uppercase tracking-wider rounded-xl transition shadow-md flex items-center justify-center gap-2">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Care Assessment Request</span>
+              </button>
+
+              <div id="formSuccessMessage" class="hidden p-4 bg-emerald-50 text-emerald-800 rounded-lg text-xs font-semibold border border-emerald-200 text-center">
+                Thank you! Your inquiry has been received. Our on-duty clinical team will call you shortly.
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CORPORATE FOOTER ==================== -->
+  <footer class="bg-brand-navy text-slate-300 pt-16 pb-12 border-t border-brand-navyLight">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-700/60">
+        
+        <!-- Col 1 & 2: Brand & Mission summary -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-gold to-brand-burgundy flex items-center justify-center text-white shadow">
+              <i class="fa-solid fa-shield-halved text-xl"></i>
+            </div>
+            <div>
+              <div class="font-bold text-white text-lg tracking-tight">Patient Care Advocates</div>
+              <div class="text-[10px] uppercase tracking-wider text-brand-gold">Tucson, Arizona Established 1993</div>
+            </div>
+          </div>
+          
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Providing comprehensive home health care, Medicare nursing, compassionate private caregiving, and bedside hospital advocacy throughout Tucson and Southern Arizona.
+          </p>
+
+          <div class="flex items-center space-x-4 pt-2">
+            <img 
+              src="images/rotary.png" 
+              onerror="this.onerror=null; this.src='https://pcatucson.com/imagesgen/rotary.png';"
+              alt="Rotary Club Member" 
+              class="h-9 w-auto object-contain filter brightness-110" 
+            />
+            <div class="text-[11px] text-slate-400">
+              <strong class="text-slate-200">Rotary Four-Way Test</strong><br>
+              Guided by Truth, Fairness, Goodwill & Benefit
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 3: Navigation -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Patient Services</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="medicare.html" class="hover:text-brand-gold transition">Medicare Home Health</a></li>
+            <li><a href="caregivers.html" class="hover:text-brand-gold transition">Caregiver Services</a></li>
+            <li><a href="hospital.html" class="hover:text-brand-gold transition">Hospital Advocacy</a></li>
+            <li><a href="vets.html" class="hover:text-brand-gold transition">Veterans Care</a></li>
+            <li><a href="links.html" class="hover:text-brand-gold transition">Medical Links & Articles</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Company -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Company & Ethics</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="about.html" class="text-brand-gold font-semibold">About PCA</a></li>
+            <li><a href="#leadership" class="hover:text-brand-gold transition">Leadership Team</a></li>
+            <li><a href="testimonial.html" class="hover:text-brand-gold transition">Letters & Testimonials</a></li>
+            <li><a href="employment.html" class="hover:text-brand-gold transition">Apply With Us (Careers)</a></li>
+            <li><a href="referrals.html" class="hover:text-brand-gold transition">Physician Referrals</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: Contact & Emergency -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Emergency & Office</h4>
+          <div class="space-y-2.5 text-xs">
+            <p class="text-slate-300">
+              <strong class="text-white">Address:</strong><br>
+              2223 E. Speedway Blvd<br>
+              Tucson, AZ 85719
+            </p>
+            <p class="text-slate-300">
+              <strong class="text-white">24/7 Telephone:</strong><br>
+              <a href="tel:5205464141" class="text-brand-gold font-bold hover:underline">(520) 546-4141</a>
+            </p>
+            <p class="text-slate-300">
+              <strong class="text-white">Email:</strong><br>
+              <a href="mailto:vperalta@pcatucson.com" class="hover:text-white transition">vperalta@pcatucson.com</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Legal -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>
+          &copy; <span id="currentYear">2026</span> Patient Care Advocates. All rights reserved. 2223 East Speedway Blvd, Tucson, AZ.
+        </p>
+        <div class="flex items-center space-x-6 text-slate-400">
+          <a href="#" class="hover:text-slate-200 transition">Privacy Practices</a>
+          <a href="#" class="hover:text-slate-200 transition">Patient Rights</a>
+          <a href="#" class="hover:text-slate-200 transition">Non-Discrimination</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING CALL WIDGET FOR MOBILE ==================== -->
+  <div class="fixed bottom-4 right-4 z-40 sm:hidden">
+    <a href="tel:5205464141" class="flex items-center gap-2 bg-brand-burgundy text-white font-bold px-4 py-3 rounded-full shadow-2xl border-2 border-white/40 animate-bounce">
+      <i class="fa-solid fa-phone-volume"></i>
+      <span>Call (520) 546-4141</span>
+    </a>
+  </div>
+
+  <!-- ==================== ASSESSMENT MODAL DIALOG ==================== -->
+  <div id="assessmentModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div class="fixed inset-0 bg-slate-900/75 backdrop-blur-sm transition-opacity" onclick="closeAssessmentModal()"></div>
+
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+      <div class="inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full border border-slate-200 p-6 sm:p-8">
+        <div class="flex justify-between items-center pb-4 border-b border-slate-100">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-lg bg-brand-burgundy text-white flex items-center justify-center text-sm">
+              <i class="fa-solid fa-notes-medical"></i>
+            </div>
+            <h3 class="font-serif text-lg font-bold text-slate-900" id="modal-title">Schedule a Free Care Assessment</h3>
+          </div>
+          <button onclick="closeAssessmentModal()" class="text-slate-400 hover:text-slate-700 text-lg">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="mt-4 text-xs text-slate-600">
+          Tell us about the client's current situation. Our Tucson clinical team will contact you to schedule an initial consultation.
+        </div>
+
+        <form class="mt-4 space-y-3" onsubmit="handleModalSubmit(event)">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Your Name</label>
+            <input type="text" required placeholder="Full Name" class="w-full px-3 py-2 border rounded-lg text-xs focus:ring-2 focus:ring-brand-navy focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number (Required for 24/7 Response)</label>
+            <input type="tel" required placeholder="(520) 000-0000" class="w-full px-3 py-2 border rounded-lg text-xs focus:ring-2 focus:ring-brand-navy focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Service Required</label>
+            <select class="w-full px-3 py-2 border rounded-lg text-xs bg-white focus:ring-2 focus:ring-brand-navy focus:outline-none">
+              <option>In-Home Caregiver Services</option>
+              <option>Bedside Hospital Advocacy</option>
+              <option>Medicare Home Health</option>
+              <option>Veterans Care Program</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Brief Notes</label>
+            <textarea rows="2" placeholder="Any special needs or hospital location..." class="w-full px-3 py-2 border rounded-lg text-xs focus:ring-2 focus:ring-brand-navy focus:outline-none"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 bg-brand-navy hover:bg-brand-navyLight text-white font-bold text-xs uppercase tracking-wider rounded-lg transition mt-2">
+            Confirm Request
+          </button>
+          <div id="modalSuccess" class="hidden p-3 bg-emerald-50 text-emerald-700 text-xs text-center rounded-lg font-semibold mt-2">
+            Request received! We will call you within 15 minutes.
+          </div>
+        </form>
+
+        <div class="mt-4 pt-3 border-t border-slate-100 text-center">
+          <span class="text-xs text-slate-500">Need emergency assistance right away?</span><br>
+          <a href="tel:5205464141" class="text-xs font-bold text-brand-burgundy hover:underline inline-flex items-center gap-1 mt-1">
+            <i class="fa-solid fa-phone"></i> Call 24/7 Dispatch: (520) 546-4141
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript Interactivity -->
+  <script>
+    // Mobile Navigation Toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        if (isHidden) {
+          mobileMenu.classList.remove('hidden');
+          menuIcon.classList.remove('fa-bars');
+          menuIcon.classList.add('fa-xmark');
+        } else {
+          mobileMenu.classList.add('hidden');
+          menuIcon.classList.remove('fa-xmark');
+          menuIcon.classList.add('fa-bars');
+        }
+      });
+    }
+
+    // Modal Dialog Controls
+    function openAssessmentModal() {
+      const modal = document.getElementById('assessmentModal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeAssessmentModal() {
+      const modal = document.getElementById('assessmentModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // ESC key closes modal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeAssessmentModal();
+      }
+    });
+
+    // Form Submissions
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const msg = document.getElementById('formSuccessMessage');
+      if (msg) {
+        msg.classList.remove('hidden');
+        e.target.reset();
+      }
+    }
+
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      const msg = document.getElementById('modalSuccess');
+      if (msg) {
+        msg.classList.remove('hidden');
+        setTimeout(() => {
+          closeAssessmentModal();
+          msg.classList.add('hidden');
+        }, 2200);
+      }
+    }
+
+    // Dynamic current year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
